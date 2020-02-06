@@ -1,0 +1,37 @@
+var EmptyStartDate = "Please enter Start Date.";
+var EmptyPassHolderType = "Please select Bus Pass for.";
+var EmptyEndDate = "Please enter End Date.";
+var EmptySource = "Please enter Source.";
+var EmptyDestination = "Please enter Destination.";
+var EmptyFullName = "Please enter Full Name.";
+var EmptyDesignation = "Please enter Designation.";
+var EmptyDepartmentName = "Please select Department Name.";
+var EmptyApproversName = "Please enter Approver's Name.";
+var EmptySalaryDeduction = "Please enter Salary Deduction.";
+var EmptyEmpNameForDeduction = "Please enter Employee name from whose salary the amount needs to be deducted.";
+var EmptyNearestBusStop = "Please enter Nearest Bus Stop.";
+var EmptyCurrentAddress = "Please enter Current Address.";
+var EmptyMobileTelephoneNo = "Please enter Mobile / Telephone Number.";
+var EmptyStatus = "Please select Status.";
+var EmptyOldBusPassNo = "Please enter Old Bus Pass Number.";
+var EmptyStudentName = "Please enter Name.";
+var EmptyStudentAge = "Please enter Age.";
+var EmptyEmployeeNo = "Please enter Employee Number";
+var InvalidStudentAge = "Please enter valid Age, Only numbers are allowed.";
+var EmptyStudentRelation = "Please enter Relation.";
+var EmptyStudentSchoolName = "Please enterSchool Name.";
+var EmptyStudentClass = "Please enter Class.";
+var EmptyStudentOldBusNumber = "Please enter Old Bus Number.";
+var EmptyRemarks = "Please enter Remarks for rejection.";
+var EmptyNewPassNo = "Please enter new Bus Pass Number.";
+var EmptyDependentNewPassNo = "Please enter new Bus Pass Number of Student.";
+var EmptyBusPassCost = "Please enter Bus Pass Cost.";
+var EmptyDateOfIssue = "Please enter Date of Issue.";
+var EmptyDateOfExpiry = "Please enter Date of Expiry.";
+var EmptyRecieptNo = "Please enter Reciept No.";
+var EmptyDateOfPayment = "Please enter Date of Payment.";
+
+var OnlyNumbersAllowed = "Only numbers are allowed.";
+var OnlyAlphabetsAllowed = "Only alphabets are allowed.";
+var MaximumLimitExceeds = "You exceed maximum limit.";
+

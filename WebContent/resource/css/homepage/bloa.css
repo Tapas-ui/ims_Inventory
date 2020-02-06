@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #000; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
+
+.form-validation .fieldgroup {
+    background: url("form-divider.gif") repeat-x scroll left top transparent;
+    display: inline-block;
+    padding: 8px 10px;
+    width: 340px;
+}
+
+.form-validation .fieldgroup label {
+    float: left;
+    padding: 15px 0 0;
+    text-align: right;
+    width: 110px;
+}
+
+.form-validation .fieldgroup input, .form-validation .fieldgroup textarea, .form-validation .fieldgroup select {
+    float: right;
+    margin: 10px 0;
+    height: 25px;
+}
+
+.form-validation .submit {
+    padding: 10px;
+    width: 220px;
+    height: 40px !important;
+}
+
+.form-validation .fieldgroup label.error {
+    color: #FB3A3A;
+    display: inline-block;
+    margin: 4px 0 5px 125px;
+    padding: 0;
+    text-align: left;
+    width: 220px;
+}
+form.cmxform label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic
+}

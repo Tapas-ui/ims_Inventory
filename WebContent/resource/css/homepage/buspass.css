@@ -1,0 +1,93 @@
+@CHARSET "ISO-8859-1";
+
+/* #BusPassForm label {float:left;}
+#BusPassForm input{float:right;}
+#BusPassForm select{float:right;}
+#BusPassForm textarea{float:right;} */
+
+.TopTable{
+	padding-left:20px; width:100%;
+}
+.TopHeader{
+  float:left;
+  padding-left:20px;
+}
+#BusPassForm{
+	
+
+}
+
+
+a:link ,
+a:visited ,
+a:hover {
+    color: #015581;
+	text-decoration: none;
+}
+a:active {
+    color: #015581;
+	text-decoration: none;
+}
+
+.tableStyle{
+	 border: 1px solid #FFFFFF; 	
+}
+.tableStyle tr{
+	 border: 1px solid #FFFFFF; 	
+}
+.tableStyle tr td{
+	 border: 1px solid #FFFFFF; 	
+}
+
+.BottomTable{
+	padding-left:200px;	
+}
+.tableHeader{	
+	font-family: verdana,arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #C1CAE6;
+}
+table.tableStyle td {	
+	height: 15px;
+	width:120px;
+	}
+.tableSubHeader{
+	font-family: verdana,arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	background-color: #DADFE9;	
+}
+.tableData{
+	font-family: verdana,arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	background-color: #DADFD9;	
+}
+.SubFieldLabel{
+	font-family: verdana,arial,Helvetica,sans-serif; font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	color: #000;
+	text-align: left;
+	padding-left: 5px;
+	
+}
+.SubFieldValue{
+	font-family: verdana,arial,Helvetica,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	text-align: left;
+	padding-left: 5px;
+	vertical-align: top;	
+}
+
+
+
+
+
+
