@@ -3,7 +3,8 @@ node{
      git 'https://github.com/Tapas-ui/ims_Inventory' 
   }
   stage ('Compile-package'){
-   sh 'mvn package'
+    def mvnPath =tool name: 'Default', type: 'git'
+   sh "$(mvnPath)/bin/mvn package"
   }
  
 }
