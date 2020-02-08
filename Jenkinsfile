@@ -4,7 +4,7 @@ node{
   }
   stage ('Compile-package'){
     def mvnPath =tool name: 'Default', type: 'git'
-   sh "$(mvnPath)/bin/mvn package"
+   sh '$(mvnPath)/bin/mvn package'
   }
  
 }
